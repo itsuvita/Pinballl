@@ -1,0 +1,184 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.18f1 (25bdc3efbc2d) revision 2473411'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 5082 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/CIBERTEC/Pinballl/PinballProyect-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62680
+Successfully changed project path to: G:/CIBERTEC/Pinballl/PinballProyect-main
+G:/CIBERTEC/Pinballl/PinballProyect-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 155.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/CIBERTEC/Pinballl/PinballProyect-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0xf02)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   23.21.13.9135
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004338 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 151.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.540 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2541ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (353ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (152ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008210 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\CIBERTEC\Pinballl\PinballProyect-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\CIBERTEC\Pinballl\PinballProyect-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.371 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2372ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1919ms)
+			LoadAssemblies (209ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (739ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (577ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.1 MB.
+System memory in use after: 116.6 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 3607.
+Total: 8.547900 ms (FindLiveObjects: 0.568100 ms CreateObjectMapping: 0.175800 ms MarkObjects: 7.216800 ms  DeleteObjects: 0.584700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/BallMetal.mat
+  artifactKey: Guid(fb892f9032ff4ce42b9cd0cf47d225e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BallMetal.mat using Guid(fb892f9032ff4ce42b9cd0cf47d225e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a6d66d9259635fe7e7b09a359c660a') in 0.603986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/black.mat
+  artifactKey: Guid(c278ce802f6c465449550eb23c76d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black.mat using Guid(c278ce802f6c465449550eb23c76d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf1979712bc004805a1fb8164a7a18e') in 0.038009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.080551 seconds.
+  path: Assets/Scenes/Scene01.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene01.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f5403e5473441a32db6f562a40ca45') in 0.017376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 128.833794 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.015661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.978159 seconds.
+  path: Assets/AssetsRivaldo
+  artifactKey: Guid(6cff6b89302d6024792733ebb48192a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo using Guid(6cff6b89302d6024792733ebb48192a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18edb0052cdd551914a613c3b5f60335') in 0.011847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.157385 seconds.
+  path: Assets/AssetsRivaldo/pruebas_rivaldo.unity
+  artifactKey: Guid(e42f11f0951dea643a10a89225671b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/pruebas_rivaldo.unity using Guid(e42f11f0951dea643a10a89225671b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caca51f49da66cfe50f0976c18554630') in 0.015956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.645928 seconds.
+  path: Assets/AssetsRivaldo/personajes
+  artifactKey: Guid(433d8aae54e522542bc22d6af91ea76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes using Guid(433d8aae54e522542bc22d6af91ea76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ccccc15fae12f9330c79102f60b790') in 0.012763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.337707 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid
+  artifactKey: Guid(d0fbe2218b771ab45b88b23ea895b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid using Guid(d0fbe2218b771ab45b88b23ea895b815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd515fcd3ab1168d255e000c9bb274826') in 0.015390 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
