@@ -26,18 +26,18 @@ fn DialogCallback =
 pluginManager.loadClass FBXIMP;
 pluginManager.loadClass FBXEXP;
 
-openLog "D:/TALLER~2/NEOPIN~1/Pinballl/PINBAL~1/Temp/3dsMax.log" mode:"w"
+openLog "D:/GitHub/pinballl2/Pinballl/PinballProyect-main/Temp/3dsMax.log" mode:"w"
 print "Start of log file."; flushLog();
 while true do
 (	
-	if ( fileExists "D:/TALLER~2/NEOPIN~1/Pinballl/PINBAL~1/Temp/MaxCommandPipe" ) then
+	if ( fileExists "D:/GitHub/pinballl2/Pinballl/PinballProyect-main/Temp/MaxCommandPipe" ) then
 	(
 		exportNormals = false;
 		exportTangents = false;
 		bakeAnimations = false;
 		useFileUnits = false;
 	
-		waitpipe = (openFile "D:/TALLER~2/NEOPIN~1/Pinballl/PINBAL~1/Temp/MaxCommandPipe" mode:"r");
+		waitpipe = (openFile "D:/GitHub/pinballl2/Pinballl/PinballProyect-main/Temp/MaxCommandPipe" mode:"r");
 		filename = (readLine waitpipe);
 		fbxFilename = (readline waitpipe);
 		
@@ -154,7 +154,7 @@ while true do
 					print "After fbx export"; flushLog();
 				)
 
-				deleteFile "D:/TALLER~2/NEOPIN~1/Pinballl/PINBAL~1/Temp/MaxCommandPipe";
+				deleteFile "D:/GitHub/pinballl2/Pinballl/PinballProyect-main/Temp/MaxCommandPipe";
 				print "Finished max loading and fbx conversion"; flushLog();
 			) -- with defaultAction
 		)
