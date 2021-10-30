@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bolas
   - Eliminar
+  - pos
   layers:
   - Default
   - TransparentFX
