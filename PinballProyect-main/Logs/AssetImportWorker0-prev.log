@@ -1,0 +1,538 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.18f1 (25bdc3efbc2d) revision 2473411'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 5082 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.1.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/CIBERTEC/repositorio 2/repositorio pinball 2/PinballProyect-main
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57581
+Successfully changed project path to: G:/CIBERTEC/repositorio 2/repositorio pinball 2/PinballProyect-main
+G:/CIBERTEC/repositorio 2/repositorio pinball 2/PinballProyect-main
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 153.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/CIBERTEC/repositorio 2/repositorio pinball 2/PinballProyect-main/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 730 (ID=0xf02)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   23.21.13.9135
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity 2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.1.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003904 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 137.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.481 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2482ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (137ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007952 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\CIBERTEC\repositorio 2\repositorio pinball 2\PinballProyect-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\CIBERTEC\repositorio 2\repositorio pinball 2\PinballProyect-main\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2359ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1944ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (770ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (572ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.4 MB.
+System memory in use after: 117.0 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3612.
+Total: 6.589700 ms (FindLiveObjects: 0.584600 ms CreateObjectMapping: 0.226100 ms MarkObjects: 5.278000 ms  DeleteObjects: 0.498300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid
+  artifactKey: Guid(c2829641eb0647449acf7d39c65e4143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid using Guid(c2829641eb0647449acf7d39c65e4143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8f7dff132667e3155e8197fc154975') in 0.017346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.748120 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/modelo maid final.fbx
+  artifactKey: Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/modelo maid final.fbx using Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe7c2f58672fce9058a37b719b933ee4') in 1.237350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.318078 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/materiales/textura_cuerpo.jpg
+  artifactKey: Guid(7e65971d1f6cff74cafba5dfc32a223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/materiales/textura_cuerpo.jpg using Guid(7e65971d1f6cff74cafba5dfc32a223a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99035427ec658e868150747f958208cb') in 0.169551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/materiales/textura_vestido.jpg
+  artifactKey: Guid(96a1044d2d8a0f744909069b39fb9c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/materiales/textura_vestido.jpg using Guid(96a1044d2d8a0f744909069b39fb9c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2220e9166bf254ab32dd578016e05e') in 0.014469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.228248 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/modelo maid final.fbx
+  artifactKey: Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/modelo maid final.fbx using Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f3490255c3cab4bab764f58fbd6ffc') in 0.129337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.658599 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/maid.fbx
+  artifactKey: Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/maid.fbx using Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4916633fb6aafc6bd13fd86b1bc0b8') in 0.113165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.608346 seconds.
+  path: Assets/Editables/Materials/Accel.mat
+  artifactKey: Guid(ffba668f96744eb46b229ac1ad23b037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editables/Materials/Accel.mat using Guid(ffba668f96744eb46b229ac1ad23b037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dd8894777702fb913a5a816c401304') in 0.257709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b67c3da243931188ff036043917d8d1') in 0.177220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
+  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5f62985db23ee76a099c5662db1705') in 0.041523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Editables/Materials/Arena2.mat
+  artifactKey: Guid(25083cce5ae2e394a97e6f0d86787fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editables/Materials/Arena2.mat using Guid(25083cce5ae2e394a97e6f0d86787fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185c56ab727e5309ad85072434255ee5') in 0.102655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Kisaru_Trabajo/monstruos/egipcios/escarabajo/alas escarabajo.mat
+  artifactKey: Guid(da2340357b0d2924a89974bd220f0165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kisaru_Trabajo/monstruos/egipcios/escarabajo/alas escarabajo.mat using Guid(da2340357b0d2924a89974bd220f0165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b9fcb526769e484413bb880adea2f7') in 0.455456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4b3bb17d81f844cc1bc83169a9697a') in 0.195631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/BallMetal.mat
+  artifactKey: Guid(fb892f9032ff4ce42b9cd0cf47d225e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BallMetal.mat using Guid(fb892f9032ff4ce42b9cd0cf47d225e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a6d66d9259635fe7e7b09a359c660a') in 0.037161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
+  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d429fa8d069536d0fe27da71296c94') in 0.051315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Editables/Materials/ARENA.mat
+  artifactKey: Guid(16b73cde44ec6a8418f43c42cf73c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editables/Materials/ARENA.mat using Guid(16b73cde44ec6a8418f43c42cf73c7fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae7d0ae15a3966a6c39b699bf66a110') in 0.035239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6646960631d1b73778b1bf160bab52') in 0.109687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.108510 seconds.
+  path: Assets/Kisaru_Trabajo/monstruos/egipcios/escarabajo/escarabajo.mat
+  artifactKey: Guid(1a0e41b9c2073e045a755cfdbc2009a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kisaru_Trabajo/monstruos/egipcios/escarabajo/escarabajo.mat using Guid(1a0e41b9c2073e045a755cfdbc2009a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eeb71bea31b1472366fc6ea6af15558') in 0.196856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Editables/Materials/Wall_Roca.mat
+  artifactKey: Guid(5cd061d4cf7b3d046814ccff84c211b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editables/Materials/Wall_Roca.mat using Guid(5cd061d4cf7b3d046814ccff84c211b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ba8365dcc5eac54a988b52028cbd5d') in 0.624971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.104143 seconds.
+  path: Assets/black.mat
+  artifactKey: Guid(c278ce802f6c465449550eb23c76d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/black.mat using Guid(c278ce802f6c465449550eb23c76d749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf1979712bc004805a1fb8164a7a18e') in 0.037295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bf586bd45c01bf6aa072b06e0e944a') in 0.056681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ea1a296fa07a410ca57e3ba7a08788') in 0.323905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ead4290a230d9bc5f63a38dadaf2f44') in 0.185111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8b415a2b58086209a0acf8881e538') in 0.034001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.773425 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b0995944d6e35a2b79adb0431dfe8b') in 0.115388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.872795 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/maid.fbx
+  artifactKey: Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/maid.fbx using Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6607bc5e4d0264fd63b90d8f36340c0') in 0.095818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.600653 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/vestidomaid.mat
+  artifactKey: Guid(1b8e79954400d75439fed80141e8a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/vestidomaid.mat using Guid(1b8e79954400d75439fed80141e8a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027c36a721fd6a31e49cd41540e79738') in 0.027502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.098645 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/map de vestido maid fin.jpg
+  artifactKey: Guid(6e8339911d2fc954cae9967d17b5b3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/map de vestido maid fin.jpg using Guid(6e8339911d2fc954cae9967d17b5b3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46069e4a3da90b06eae99171d208fc3e') in 0.032968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.203497 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/vestidomaid.mat
+  artifactKey: Guid(1b8e79954400d75439fed80141e8a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/vestidomaid.mat using Guid(1b8e79954400d75439fed80141e8a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2534af8ca3d60db2851945cc162306e') in 0.031096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.087825 seconds.
+  path: Assets/AssetsRivaldo/personajes/maid/repositorio maid/maid.fbx
+  artifactKey: Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/maid/repositorio maid/maid.fbx using Guid(4d7c9f207f88e914496f7369cd0c53f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed924e22a10b16fcc8edab6d2b7f234') in 0.106889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.918870 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina
+  artifactKey: Guid(814c546f7babcdb4da9b60af88218511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina using Guid(814c546f7babcdb4da9b60af88218511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29ba1bcc5dd1ef90ee46dbf1d17acc7') in 0.017833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.750292 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/modelo 2 final.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/modelo 2 final.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e93d7156981bf65219f3aa1e4920f05') in 0.161245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.387914 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/modelo 2 final.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/modelo 2 final.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2115f169825ef9d04e80aaacd40365e') in 0.125442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.735857 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6f27ac1d9234e50f99a8c135c21b94') in 0.111364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.493195 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/texturas
+  artifactKey: Guid(8480b482b744c79408c7ad6c435f1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/texturas using Guid(8480b482b744c79408c7ad6c435f1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf1c803e70ef2b4f4451c69f2070961') in 0.019910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.568346 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/texturas/vestido 2.jpg
+  artifactKey: Guid(82a02dcde3e0cc740b799d7d857b94df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/texturas/vestido 2.jpg using Guid(82a02dcde3e0cc740b799d7d857b94df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0248e971891486426ca12d5784a577') in 0.027319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.407652 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/mat_vestido_noche.mat
+  artifactKey: Guid(c361b48df77ad3745b559c30c261eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/mat_vestido_noche.mat using Guid(c361b48df77ad3745b559c30c261eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba4cd13cbcfce59a10cb05e817e4351') in 0.030396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.832730 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3aa19b3abafd37728ab656c17ce6be') in 0.096362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.113340 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd92afbad33ed2cc2642f553438c8213') in 0.111825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.314508 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/piel_albina.mat
+  artifactKey: Guid(e6342b3bc18179d4e860949fda074085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/piel_albina.mat using Guid(e6342b3bc18179d4e860949fda074085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2737c9a819972fa4127c052ff022d4a') in 0.032784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.986898 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454905458fa62e4bc70f19f8d7611a5d') in 0.110037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/textura cuerpo personaje 2.2.jpg
+  artifactKey: Guid(b6863d0cdcad5f3459cdae5e6a696b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/textura cuerpo personaje 2.2.jpg using Guid(b6863d0cdcad5f3459cdae5e6a696b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1213b2db239422a43e626e349641084') in 0.030432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.392534 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38be401b19694a3803483388207eed3c') in 0.100355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.250668 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/cabello_blanco.mat
+  artifactKey: Guid(29415e878e1131d4ca0088c94e05da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/cabello_blanco.mat using Guid(29415e878e1131d4ca0088c94e05da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60714b4fec49c75cb5fad34d4a24975e') in 0.031704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.682692 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx
+  artifactKey: Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/chica_albina.fbx using Guid(9feae030115785d4da4126f5757d7112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c383f7a32c0068f45e16cd75c4c8548e') in 0.132419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.941006 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china
+  artifactKey: Guid(9148e15ebdebb9a4bbbec403a317c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china using Guid(9148e15ebdebb9a4bbbec403a317c90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f9a3f1bc1d0b34e015f63d3e01e3a2') in 0.015347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.401472 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx
+  artifactKey: Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx using Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e56467fae80c9093b7b2fb3efb2477e') in 0.121792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.880729 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/vestido_china.mat
+  artifactKey: Guid(849ebfbf8a5ad494a857e9b81023d77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/vestido_china.mat using Guid(849ebfbf8a5ad494a857e9b81023d77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b6ab6601e91ba5bf28e020623052a3') in 0.047651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.355342 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/piel_china.mat
+  artifactKey: Guid(cd9ce603283f80e4ea60019f93673c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/piel_china.mat using Guid(cd9ce603283f80e4ea60019f93673c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd1c230411bf5001ff3f4c2623fbbc8') in 0.042905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.317369 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/cabello_china.mat
+  artifactKey: Guid(485045e68931a39438274fb9e084e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/cabello_china.mat using Guid(485045e68931a39438274fb9e084e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74754383d935cabeefbb9660e065744c') in 0.027710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.628937 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx
+  artifactKey: Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx using Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018e3a8f1b5057d36e6e936c30fb7e02') in 0.112617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china.jpg
+  artifactKey: Guid(1a3c2887f532fc74fb7f0c28fe9ea3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china.jpg using Guid(1a3c2887f532fc74fb7f0c28fe9ea3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc6e998125ba173908d5db8424f65ef') in 0.031080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.698420 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx
+  artifactKey: Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx using Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df504b33ef92c7eca79316002daea47') in 0.104341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.706117 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg
+  artifactKey: Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg using Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30504a80e982c08791957c187ce34a1e') in 0.050721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 168.204635 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg
+  artifactKey: Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg using Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e9d3dec7de9aa1b7f282491bc9f6cf') in 0.044987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.478727 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg
+  artifactKey: Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg using Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0c3ba61eab6d784f76019e6430bb09') in 0.039214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.437525 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg
+  artifactKey: Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 1.jpg using Guid(95e0357bf118bfe4b9818eb50bb59036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132b9ea92b8f873d245f79bb43d210d9') in 0.038742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.929969 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 2.jpg
+  artifactKey: Guid(8af6fade162a2a44db402c8886fd4bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/textura ropa interior china 2.jpg using Guid(8af6fade162a2a44db402c8886fd4bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd221bfcf9eec1937f138eda2f64147') in 0.036013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.446399 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx
+  artifactKey: Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx using Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f9a36cfc62f636c4972d86ba3eff7c') in 0.089259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.176277 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx
+  artifactKey: Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx using Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8138190f96b8a9f26cdef578abe59f0b') in 0.082983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.079400 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/vestido asiatico 1.jpg
+  artifactKey: Guid(e1cc5501c2ce3734084f75f5ccf5bea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/vestido asiatico 1.jpg using Guid(e1cc5501c2ce3734084f75f5ccf5bea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efa5cdae499139680fd0750b1676912') in 0.030413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.715694 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/cabello_china.mat
+  artifactKey: Guid(485045e68931a39438274fb9e084e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/cabello_china.mat using Guid(485045e68931a39438274fb9e084e30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe52ecbc2f66ae594e13012646b2d3a') in 0.033270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/piel_china.mat
+  artifactKey: Guid(cd9ce603283f80e4ea60019f93673c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/piel_china.mat using Guid(cd9ce603283f80e4ea60019f93673c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a423b9716d28bb4a5a52886dead2b76') in 0.045748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/vestido_china.mat
+  artifactKey: Guid(849ebfbf8a5ad494a857e9b81023d77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/vestido_china.mat using Guid(849ebfbf8a5ad494a857e9b81023d77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf6b597e570377f5b565424603e70bf') in 0.031086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.834284 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx
+  artifactKey: Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_china/modelo mujer china fin.fbx using Guid(2612cce579589ae4ca73b5af037aa7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab656397c0dcdf109b12349021065ff') in 0.099791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.751545 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/cabello_blanco.mat
+  artifactKey: Guid(29415e878e1131d4ca0088c94e05da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/cabello_blanco.mat using Guid(29415e878e1131d4ca0088c94e05da33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41a7df386d415ba80a1d18b3633f83e') in 0.018158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/mat_vestido_noche.mat
+  artifactKey: Guid(c361b48df77ad3745b559c30c261eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/mat_vestido_noche.mat using Guid(c361b48df77ad3745b559c30c261eb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdeba68173f306d5f8e1763a4fc7ab52') in 0.028059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/AssetsRivaldo/personajes/chica_albina/piel_albina.mat
+  artifactKey: Guid(e6342b3bc18179d4e860949fda074085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsRivaldo/personajes/chica_albina/piel_albina.mat using Guid(e6342b3bc18179d4e860949fda074085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d86849e43f2b8ee348b98bd31db6121') in 0.028427 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
