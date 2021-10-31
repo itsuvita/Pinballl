@@ -31,9 +31,13 @@ public class MovimientoModelo : MonoBehaviour
         }
 
     }
-    private void OnTriggerEnter(Collider other)
+    public void Pase(int mensaje)
     {
-        if (other.CompareTag("Bolas"))
+        count -= mensaje;
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Bolas")
         {
             count -= 1;
         }
