@@ -161,7 +161,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: fe43c1ad5e62a3f4ebcd7ff5a0f67138, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -614,11 +614,11 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 4b047b9a79532ac4da9a2023a00209b6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cd5f38e3db8831d41ba33b8da10424a2, type: 2}
+      objectReference: {fileID: 2100000, guid: c9e4fd16a50529f49ae394d06c3a1091, type: 2}
     - target: {fileID: -6449265365447941941, guid: 4b047b9a79532ac4da9a2023a00209b6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: cd5f38e3db8831d41ba33b8da10424a2, type: 2}
+      objectReference: {fileID: 2100000, guid: e3f9b0aac2474f84184eaf89c6d2a6ae, type: 2}
     - target: {fileID: 919132149155446097, guid: 4b047b9a79532ac4da9a2023a00209b6, type: 3}
       propertyPath: m_Name
       value: tablero 2
@@ -876,7 +876,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 58a08971afd78fa408ec67fefd52d0b8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1040,7 +1040,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: fe43c1ad5e62a3f4ebcd7ff5a0f67138, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1215,7 +1215,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 9e0d2dfbf61370b48af7b02a81f17662, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
