@@ -1,23 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using PathCreation;
 
 public class MovimientoModelo : MonoBehaviour
 {
-    public Transform origen;
     Vector3 orig;
-    Transform obj;
+    int count;
+    GameObject mensajero;
+    public float velocidad = 3f;
+    public PathCreator ruta;
+    float distancia;
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.transform.position = origen.transform.position;
         orig = gameObject.transform.position;
-        obj = GameObject.FindGameObjectWithTag("pos").GetComponent<Transform>();
+        count = 3;
     }
 
     // Update is called once per frame
     void Update()
     {
-        orig = Vector3.MoveTowards(orig, obj.position, 2f * Time.deltaTime);
+        distancia += velocidad * Time.deltaTime;
+        transform.position = ruta.path.GetPointAtDistance(distancia);
+        transform.rotation = ruta.path.GetRotationAtDistance(distancia);
+        if (count == 0)
+        {
+            mensajero.SendMessage("Maid", false);
+            gameObject.SetActive(false);
+        }
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Bolas"))
+        {
+            count -= 1;
+        }
     }
 }
