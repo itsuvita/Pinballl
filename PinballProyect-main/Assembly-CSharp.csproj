@@ -108,6 +108,7 @@
     <Compile Include="Assets\Scripts\MovimientoModelo.cs" />
     <Compile Include="Assets\Editables\Code\Codigos_Cifras\Puntaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Editables\Code\Escenas\Mundos.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\Editables\Path-Creator-master\Path Creator Project\Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
     <Compile Include="Assets\Scripts\SeñalRuta.cs" />
@@ -130,7 +131,6 @@
     <Compile Include="Assets\Editables\Path-Creator-master\Path Creator Project\Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Editables\Path-Creator-master\Path Creator Project\Assets\PathCreator\Examples\Scripts\CylinderMeshCreator.cs" />
-    <Compile Include="Assets\Editables\Code\Escenas\Mundos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
