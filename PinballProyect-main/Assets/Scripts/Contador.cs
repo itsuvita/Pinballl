@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Contador : MonoBehaviour
 {
-    public int cifras, alea, i;
+    public int cifras, alea, i,win;
     bool activo = false,iniciado=false;
     public GameObject maid,maid2;
     // Start is called before the first frame update
@@ -47,7 +48,10 @@ public class Contador : MonoBehaviour
         {
             i = 0;
         }
-
+        if (win >= 3000f)
+        {
+            SceneManager.LoadScene("Youwin");
+        }
     }
     public void Pase(int mensajero)
     {
